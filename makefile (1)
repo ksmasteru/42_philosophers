@@ -1,7 +1,7 @@
 NAME = philo
 CC = cc
 CFLAGS = -g -fsanitize=address
-SRCS = main.c
+SRCS = main.c routines.c
 OBJS = $(SRCS:.c=.o)
 
 
